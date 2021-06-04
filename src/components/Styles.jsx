@@ -18,6 +18,13 @@ const Calculation = styled.section`
 
     border-radius: 25px;
     background-color: navy;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: white;
+    font-size: 5rem;
 ` 
 
 const Grid = styled.section`

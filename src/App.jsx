@@ -4,7 +4,7 @@ import {calculatorButtons, createButtons} from './components/ButtonMaker'
 export const App = () => {
   return (
     <Device>
-      <Calculation />
+      <Calculation id = 'calcDisplay'></Calculation>
       <Grid>
         {calculatorButtons.map(createButtons)}
       </Grid>

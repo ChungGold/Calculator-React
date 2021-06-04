@@ -3,7 +3,7 @@ const calculatorButtons = [7, 8, 9, 'DEL', 4, 5, 6, '+', 1, 2, 3, '-', '.', 0, '
 
 const createButtons = props => {
     return (
-    <Buttons>{props}</Buttons> 
+    <Buttons className = 'button'>{props}</Buttons> 
     )
 }
 
